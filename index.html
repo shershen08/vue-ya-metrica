@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>vue-ya-metrica directive</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="vue-ya-metrica.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <h4>{{ greeting }}</h4>
+        <vue-ya-metrica counter="123456" enable-hash="true" enable-webvisor="true"></vue-ya-metrica>
+
+        <strong>Usage code</strong><br>
+        <code>
+            &lt;vue-ya-metrica counter="123456" enable-hash="true" enable-webvisor="true"&gt;&lt;/vue-ya-metrica&gt;
+        </code>
+    </div>
+    <script async>    
+    new Vue({
+        el: '#app',
+        data: {
+            greeting: 'Welcome to your app!'
+        }
+    })
+    </script>
+</body>
+
+</html>
