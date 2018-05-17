@@ -11,7 +11,14 @@ npm i vue-ya-metrica --save
 ## Usage
 
 ```
-   <vue-ya-metrica counter="123456" enable-hash="true" enable-webvisor="true"></vue-ya-metrica>
+import VueYaMetrica from 'vue-ya-metrica'
+
+components: {
+    VueYaMetrica
+    //....
+}
+
+<vue-ya-metrica counter="123456" enable-hash="true" enable-webvisor="true"></vue-ya-metrica>
 ```
 
 The `counter` **attribute is required**.

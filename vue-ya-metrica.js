@@ -1,9 +1,19 @@
 import Vue from 'vue'
-
-const vueYaMetrica = Vue.component('vue-ya-metrica', {
-    name: 'vue-ya-metrica',
+const VueYaMetrica = Vue.component('VueYaMetrica', {
+    name: 'VueYaMetrica',
     template: '<div></div>',
-    props: ['counter', ' enableWebvisor', 'enableHash'],
+    props: {
+        'counter' : {
+            required: true,
+            type: Number
+        },
+        'enableWebvisor': {
+            type: Boolean
+        },
+        'enableHash': {
+            type: Boolean
+        }
+    },
     mounted: function() {
         var cId = this.$props.counter;
         if(!cId){
@@ -40,3 +50,5 @@ const vueYaMetrica = Vue.component('vue-ya-metrica', {
         })(document, window, "yandex_metrika_callbacks");
     }
 });
+
+export default VueYaMetrica
