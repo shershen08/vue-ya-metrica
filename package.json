@@ -1,6 +1,6 @@
 {
   "name": "vue-ya-metrica",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "plugin to insert Yandex.Metrica tags in your Vuejs app",
   "main": "vue-ya-metrica.js",
   "scripts": {
