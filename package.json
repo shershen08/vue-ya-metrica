@@ -1,0 +1,24 @@
+{
+  "name": "vue-ya-metrica",
+  "version": "1.0.2",
+  "description": "plugin to insert Yandex.Metrica tags in your Vuejs app",
+  "main": "vue-ya-metrica.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shershen08/vue-ya-metrica.git"
+  },
+  "keywords": [
+    "vuejs",
+    "vue",
+    "yandex.metrica"
+  ],
+  "author": "Mikhail Kuznetcov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shershen08/vue-ya-metrica/issues"
+  },
+  "homepage": "https://github.com/shershen08/vue-ya-metrica#readme"
+}
