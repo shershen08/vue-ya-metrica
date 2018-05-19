@@ -18,10 +18,12 @@ components: {
     //....
 }
 
-<vue-ya-metrica counter="123456" enable-hash="true" enable-webvisor="true"></vue-ya-metrica>
+<vue-ya-metrica :counter="123456"
+                 enable-hash
+                 enable-webvisor></vue-ya-metrica>
 ```
 
-The `counter` **attribute is required**.
+The numeric attribute `counter` **is required**; `enable-hash` and `enable-webvisor` are optional flags.
 
 ### TODOs
 

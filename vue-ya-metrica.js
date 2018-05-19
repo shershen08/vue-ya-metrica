@@ -1,7 +1,9 @@
 import Vue from 'vue'
 const VueYaMetrica = Vue.component('VueYaMetrica', {
     name: 'VueYaMetrica',
-    template: '<div></div>',
+    render: function (createElement) {
+        return createElement('div')
+    },
     props: {
         'counter' : {
             required: true,
